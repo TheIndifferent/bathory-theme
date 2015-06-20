@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Cinnamon Plymouth
+Description=A theme that features a background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/cinnamon-plymouth
+ScriptFile=/lib/plymouth/themes/cinnamon-plymouth/cinnamon-plymouth.script

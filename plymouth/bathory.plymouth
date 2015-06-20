@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Bathory theme
+Description=Bathory Plymouth theme based on Ubuntu Satanic Edition wallpapers
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/bathory
+ScriptFile=/usr/share/plymouth/themes/bathory/bathory.script
