@@ -1,0 +1,19 @@
+########################################################################
+# Thanks for Background to memovaslg — http://memovaslg.deviantart.com #
+########################################################################
+
+
+Installation:
+-------------
+
+cd /lib/plymouth/themes/
+ 
+sudo cp -r path/to/cinnamon-plymouth/ ./
+
+sudo update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/cinnamon-plymouth/cinnamon-plymouth.plymouth 100
+
+sudo update-alternatives --config default.plymouth
+
+#choose cinnamon-plymouth from list
+
+sudo update-initramfs -u
